@@ -34,7 +34,7 @@ Here is an example of the request.
 ```http
 PATCH https://graph.microsoft.com/v1.0/officePolicies/<id>
 Content-type: application/json
-Content-length: 211
+Content-length: xxx
 
 {
    "description": "description-value",
@@ -52,7 +52,7 @@ Here is an example of the response. Note: The response object shown here may be 
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
-Content-length: 211
+Content-length: xxx
 
 {
    "description": "description-value",
