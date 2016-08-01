@@ -45,7 +45,7 @@ Content-type: application/json
 Content-length: 491
 
 {
-   "name": "name-value",
+   "displayName": "displayName-value",
    "description": "description-value",
    "id": "id-value"
 }
