@@ -57,29 +57,6 @@ Represents an Azure AD user account. Inherits from [directoryObject](directoryob
 |userPrincipalName|String|The user principal name (UPN) of the user. The UPN is an Internet-style login name for the user based on the Internet standard RFC 822. By convention, this should map to the user's email name. The general format is alias@domain, where domain must be present in the tenant’s collection of verified domains. This property is required when a user is created. The verified domains for the tenant can be accessed from the **verifiedDomains** property of [organization](organization.md). Supports $filter and $orderby.
 |userType|String|A string value that can be used to classify user types in your directory, such as “Member” and “Guest”. Supports $filter.          |
 
-### Relationships
-| Relationship | Type	|Description|
-|:---------------|:--------|:----------|
-|calendar|[Calendar](calendar.md)|The user's primary calendar. Read-only.|
-|calendarGroups|[CalendarGroup](calendargroup.md) collection|The user's calendar groups. Read-only. Nullable.|
-|calendarView|[Event](event.md) collection|The calendar view for the calendar. Read-only. Nullable.|
-|calendars|[Calendar](calendar.md) collection|The user's calendars. Read-only. Nullable.|
-|contactFolders|[ContactFolder](contactfolder.md) collection|The user's contacts folders. Read-only. Nullable.|
-|contacts|[Contact](contact.md) collection|The user's contacts. Read-only. Nullable.|
-|createdObjects|[directoryObject](directoryobject.md) collection|Directory objects that were created by the user. Read-only. Nullable.|
-|directReports|[directoryObject](directoryobject.md) collection|The users and contacts that report to the user. (The users and contacts that have their manager property set to this user.) Read-only. Nullable. |
-|drive|[drive](drive.md)|The user's OneDrive. Read-only.|
-|events|[Event](event.md) collection|The user's events. Default is to show Events under the Default Calendar. Read-only. Nullable.|
-|inferenceClassification | [inferenceClassification](inferenceClassification.md) | Relevance classification of the user's messages based on explicit designations which override inferred relevance or importance. |
-|mailFolders|[MailFolder](mailfolder.md) collection| The user's mail folders. Read-only. Nullable.|
-|manager|[directoryObject](directoryobject.md)|The user or contact that is this user’s manager. Read-only. (HTTP Methods: GET, PUT, DELETE.)|
-|memberOf|[directoryObject](directoryobject.md) collection|The groups and directory roles that the user is a member of. Read-only. Nullable.|
-|messages|[Message](message.md) collection|The messages in a mailbox or folder. Read-only. Nullable.|
-|ownedDevices|[directoryObject](directoryobject.md) collection|Devices that are owned by the user. Read-only. Nullable.|
-|ownedObjects|[directoryObject](directoryobject.md) collection|Directory objects that are owned by the user. Read-only. Nullable.|
-|photo|[profilePhoto](profilephoto.md)| The user's profile photo. Read-only.|
-|registeredDevices|[directoryObject](directoryobject.md) collection|Devices that are registered for the user. Read-only. Nullable.|
-
 
 ### JSON representation
 
