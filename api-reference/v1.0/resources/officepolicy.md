@@ -6,8 +6,8 @@ Represents an Azure AD user account. Inherits from [directoryObject](directoryob
 ### Methods
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[Get officepolicy](../api/officepolicy_get.md) | [user](officepolicy.md) |Read properties and relationships of officepolicy object.|
-|[Update officepolicy](../api/officepolicy_update.md) | [user](officepolicy.md) |Update officepolicy object. |
+|[Get officepolicy](../api/officepolicy_get.md) | [officepolicy](officepolicy.md) |Read properties and relationships of officepolicy object.|
+|[Update officepolicy](../api/officepolicy_update.md) | [officepolicy](officepolicy.md) |Update officepolicy object. |
 |[Delete officepolicy](../api/officepolicy_delete.md) | None |Delete officepolicy object. |
 |[List officepolicies](../api/officepolicy_list_messages.md) |[OfficePolicy](officepolicy.md) collection| Get all the messages in the signed-in user's mailbox.|
 |[Create officepolicy](../api/officepolicy_post_messages.md) |[OfficePolicy](officepolicy.md)| Create a new Office Policy by posting to the office policies collection.|
