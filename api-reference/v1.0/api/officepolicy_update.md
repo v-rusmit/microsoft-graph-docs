@@ -39,19 +39,14 @@ Here is an example of the request.
   "name": "update_group"
 }-->
 ```http
-PATCH https://graph.microsoft.com/v1.0/groups/<id>
+PATCH https://graph.microsoft.com/v1.0/officepolicys/<id>
 Content-type: application/json
 Content-length: 211
 
 {
-  "description": "description-value",
-  "displayName": "displayName-value",
-  "groupTypes": [
-    "groupTypes-value"
-  ],
-  "mail": "mail-value",
-  "mailEnabled": true,
-  "mailNickname": "mailNickname-value"
+   "description": "description-value",
+   "name": "name-value",
+   "id": "id-value"
 }
 ```
 ##### Response
@@ -67,14 +62,9 @@ Content-type: application/json
 Content-length: 211
 
 {
-  "description": "description-value",
-  "displayName": "displayName-value",
-  "groupTypes": [
-    "groupTypes-value"
-  ],
-  "mail": "mail-value",
-  "mailEnabled": true,
-  "mailNickname": "mailNickname-value"
+   "description": "description-value",
+   "name": "name-value",
+   "id": "id-value"
 }
 ```
 
