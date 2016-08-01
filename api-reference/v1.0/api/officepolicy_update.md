@@ -23,7 +23,7 @@ In the request body, supply the values for relevant fields that should be update
 |displayName|String|The display name for the group. This property is required when a group is created and it cannot be cleared during updates. Supports $filter and $orderby.|
 
 ### Response
-If successful, this method returns a `200 OK` response code and updated [group](../resources/group.md) object in the response body.
+If successful, this method returns a `200 OK` response code and updated [officepolicy](../resources/officepolicy.md) object in the response body.
 ### Example
 ##### Request
 Here is an example of the request.
@@ -38,7 +38,7 @@ Content-length: 211
 
 {
    "description": "description-value",
-   "name": "name-value",
+   "displayName": "displayName-value",
    "id": "id-value"
 }
 ```
@@ -56,7 +56,7 @@ Content-length: 211
 
 {
    "description": "description-value",
-   "name": "name-value",
+   "displayName": "displayName-value",
    "id": "id-value"
 }
 ```
