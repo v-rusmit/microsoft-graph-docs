@@ -21,10 +21,8 @@ The following table shows the properties that are required when you create a gro
 
 | Parameter | Type | Description|
 |:---------------|:--------|:----------|
+| description | string | An optional description for the officePolicy. |
 | displayName | string | The name to display in the address book for the group. |
-| mailEnabled | boolean | Set to **true** for mail-enabled groups. |
-| mailNickname | string | The mail alias for the group. |
-| securityEnabled | boolean | Set to **true** for security-enabled groups. Set to **false** if creating an Office 365 group. |
 
 ### Response
 If successful, this method returns `201, Created` response code and [officePolicy](../resources/officepolicy.md) object in the response body.
