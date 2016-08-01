@@ -1,6 +1,6 @@
-# List officepolicies
+# List officePolicies
 
-List all the officepolicies available in an organization.
+List all the officePolicies available in an organization.
 
 ### Prerequisites
 One of the following **scopes** is required to execute this API: *OfficePolicy.Read.All* or *OfficePolicy.ReadWrite.All*
