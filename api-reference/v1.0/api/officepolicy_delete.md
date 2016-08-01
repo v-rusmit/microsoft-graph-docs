@@ -1,6 +1,6 @@
-# Delete officepolicy
+# Delete officePolicy
 
-Delete officepolicy.
+Delete officePolicy.
 ### Prerequisites
 One of the following **scopes** is required to execute this API: _Officepolicy.ReadWrite.All_
 ### HTTP request
