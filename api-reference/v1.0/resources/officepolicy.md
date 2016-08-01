@@ -1,6 +1,6 @@
 # officepolicy resource type
 
-Represents an Azure AD user account. Inherits from [directoryObject](directoryobject.md).
+Represents an Office policy.
 
 
 ### Methods
@@ -19,7 +19,7 @@ Represents an Azure AD user account. Inherits from [directoryObject](directoryob
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|description|String|The user defined description of the Office policy. Supports $filter.|
+|description|String|An optional description for the officePolicy. Supports $filter.|
 |name|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
 
 
@@ -30,35 +30,16 @@ Here is a JSON representation of the resource
 <!-- {
   "blockType": "resource",
   "optionalProperties": [
-    "appRoleAssignments",
-    "calendar",
-    "calendarGroups",
-    "calendarView",
-    "calendars",
-    "contactFolders",
-    "contacts",
-    "createdObjects",
-    "directReports",
-    "drive",
-    "events",
-    "joinedGroups",
-    "mailFolders",
-    "manager",
-    "memberOf",
-    "messages",
-    "oauth2PermissionGrants",
-    "ownedDevices",
-    "ownedObjects",
-    "photo",
-    "registeredDevices"
+    "description",
+    "displayName"
   ],
   "keyProperty": "id",
-  "@odata.type": "microsoft.graph.user"
+  "@odata.type": "microsoft.graph.officepolicy"
 }-->
 
 ```json
 {
-  "name": "string"
+  "description": "string"
   "displayName": "string",
 }
 
