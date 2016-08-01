@@ -1,13 +1,13 @@
 # List officepolicies
 
-List all the groups available in an organization, including but not limited to Office 365 Groups.
+List all the officepolicies available in an organization.
 
 ### Prerequisites
-One of the following **scopes** is required to execute this API: *Group.Read.All* or *Group.ReadWrite.All*
+One of the following **scopes** is required to execute this API: *OfficePolicy.Read.All* or *OfficePolicy.ReadWrite.All*
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /groups
+GET /officepolicies
 ```
 ### Optional query parameters
 This method supports the [OData Query Parameters](http://graph.microsoft.io/docs/overview/query_parameters) to help customize the response.
@@ -19,16 +19,16 @@ This method supports the [OData Query Parameters](http://graph.microsoft.io/docs
 ### Request body
 Do not supply a request body for this method.
 ### Response
-If successful, this method returns a `200 OK` response code and collection of [group](../resources/officepolicy.md) objects in the response body.
+If successful, this method returns a `200 OK` response code and collection of [officepolicy](../resources/officepolicy.md) objects in the response body.
 ### Example
 ##### Request
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "get_groups"
+  "name": "get_officepolicies"
 }-->
 ```http
-GET https://graph.microsoft.com/v1.0/groups
+GET https://graph.microsoft.com/v1.0/officepolicies
 ```
 ##### Response
 Here is an example of the response.
@@ -38,7 +38,7 @@ Note: The response object shown here may be truncated for brevity. All of the pr
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.group",
+  "@odata.type": "microsoft.graph.officepolicy",
   "isCollection": true
 } -->
 ```http
