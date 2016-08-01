@@ -1,6 +1,6 @@
-# Update officepolicy
+# Update officePolicy
 
-Update the properties of a officepolicy object.
+Update the properties of a officePolicy object.
 ### Prerequisites
 The following **scope** is required to execute this API: *Group.ReadWrite.All*
 
