@@ -10,7 +10,7 @@ Represents an Azure AD user account. Inherits from [directoryObject](directoryob
 |[Update officepolicy](../api/officepolicy_update.md) | [officepolicy](officepolicy.md) |Update officepolicy object. |
 |[Delete officepolicy](../api/officepolicy_delete.md) | None |Delete officepolicy object. |
 |[List officepolicies](../api/officepolicy_list.md) |[officepolicy](officepolicy.md) collection| Get all the messages in the signed-in user's mailbox.|
-|[Create officepolicy](../api/officepolicy_post_officepolcies.md) |[officepolicy](officepolicy.md)| Create a new Office Policy by posting to the office policies collection.|
+|[Create officepolicy](../api/officepolicy_post_officepolicies.md) |[officepolicy](officepolicy.md)| Create a new Office Policy by posting to the office policies collection.|
 |[Get officepolicysetting](../api/officepolicysetting_get.md) | [officepolicysetting](officepolicysetting.md) |Read properties of an officepolicysetting object.|
 |[Update officepolicysetting](../api/officepolicysetting_update.md) | [officepolicysetting](officepolicysetting.md) |Update officepolicysetting object.|
 |[Delete officepolicysetting](../api/officepolicysetting_delete.md) | None |Delete officepolicysetting object. |
