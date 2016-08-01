@@ -6,7 +6,7 @@ One of the following **scopes** is required to execute this API: _Officepolicy.R
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-DELETE /groups/<id>
+DELETE /officepolicies/<id>
 ```
 ### Request headers
 | Name       | Type | Description|
