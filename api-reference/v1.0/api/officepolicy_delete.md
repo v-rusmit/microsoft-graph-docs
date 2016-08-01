@@ -6,7 +6,7 @@ One of the following **scopes** is required to execute this API: _Officepolicy.R
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-DELETE /officepolicies/<id>
+DELETE /officePolicies/<id>
 ```
 ### Request headers
 | Name       | Type | Description|
@@ -28,7 +28,7 @@ Here is an example of the request.
   "name": "delete_officepolicy"
 }-->
 ```http
-DELETE https://graph.microsoft.com/v1.0/officepolicy/<id>
+DELETE https://graph.microsoft.com/v1.0/officePolicies/<id>
 ```
 ##### Response
 Here is an example of the response. 
