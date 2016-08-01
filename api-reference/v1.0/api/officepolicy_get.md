@@ -1,4 +1,4 @@
-# Get office policy
+# Get officePolicy
 
 Retrieve the properties and relationships of office policy object.
 
