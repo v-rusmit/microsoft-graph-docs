@@ -32,7 +32,7 @@ Here is an example of the request.
   "name": "get_user"
 }-->
 ```http
-GET https://graph.microsoft.com/v1.0/officepolicies
+GET https://graph.microsoft.com/v1.0/officepolicies/<id>
 ```
 ##### Response
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
@@ -47,18 +47,8 @@ Content-type: application/json
 Content-length: 491
 
 {
-  "businessPhones": [
-       "businessPhones-value"
-   ],
-   "displayName": "displayName-value",
-   "givenName": "givenName-value",
-   "jobTitle": "jobTitle-value",
-   "mail": "mail-value",
-   "mobilePhone": "mobilePhone-value",
-   "officeLocation": "officeLocation-value",
-   "preferredLanguage": "preferredLanguage-value",
-   "surname": "surname-value",
-   "userPrincipalName": "userPrincipalName-value",
+   "name": "name-value",
+   "description": "description-value",
    "id": "id-value"
 }
 ```
