@@ -28,6 +28,7 @@ Here is a JSON representation of the resource
 
 ```json
 {
+  "allowUserToModify": true,
   "description": "string",
   "displayName": "string",
   "status": "string"
