@@ -8,7 +8,7 @@ One of the following **scopes** is required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /officePolicies/<id>/officePolicySetting/<id>
+GET /officePolicies/<id>/settings/<id>
 ```
 ### Optional query parameters
 This method supports the [OData Query Parameters](http://graph.microsoft.io/docs/overview/query_parameters) to help customize the response.
@@ -30,7 +30,7 @@ Here is an example of the request.
   "name": "get_user"
 }-->
 ```http
-GET https://graph.microsoft.com/v1.0/officePolicies/<id>/officepolicysetting/<id>
+GET https://graph.microsoft.com/v1.0/officePolicies/<id>/setting/<id>
 ```
 ##### Response
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
@@ -45,8 +45,10 @@ Content-type: application/json
 Content-length: xxx
 
 {
+   "comment": "comment-value",
    "displayName": "displayName-value",
-   "description": "description-value",
+   "help": "description-value",
+   "comment": "comment-value",
    "id": "id-value"
 }
 ```
