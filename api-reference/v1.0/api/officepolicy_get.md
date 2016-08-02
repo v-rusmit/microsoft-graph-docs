@@ -45,7 +45,9 @@ Content-type: application/json
 Content-length: xxx
 
 {
-   "assignedGroups": [ { "@odata.type": "microsoft.graph.directoryObject" } ],
+   "assignedGroups": [
+      "assignedGroups-value"
+    ],
    "displayName": "displayName-value",
    "description": "description-value",
    "id": "id-value"
