@@ -27,7 +27,8 @@ Here is a JSON representation of the resource
 ```json
 {
   "description": "string",
-  "displayName": "string"
+  "displayName": "string",
+  "status": "string"
 }
 
 ```
