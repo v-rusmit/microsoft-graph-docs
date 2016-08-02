@@ -1,4 +1,4 @@
-# List availableOfficePolicySettings
+# List availableSettings
 
 List all the available officePoliciy available to be configured.
 
@@ -7,7 +7,7 @@ List all the available officePoliciy available to be configured.
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /officepolicies/<Product Name>/availableOfficePolicySettings
+GET /officepolicies/<Product Name>/availableSettings
 ```
 ### Optional query parameters
 This method supports the [OData Query Parameters](http://graph.microsoft.io/docs/overview/query_parameters) to help customize the response.
@@ -28,7 +28,7 @@ Here is an example of the request.
   "name": "get_availableOfficePolicySettings"
 }-->
 ```http
-GET https://graph.microsoft.com/v1.0/officePolicies/<Product Name>/availableOfficePolicySettings
+GET https://graph.microsoft.com/v1.0/officePolicies/<Product Name>/availableSettings
 ```
 ##### Response
 Here is an example of the response.
