@@ -41,9 +41,9 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "description": "string"
-  "displayName": "string",
-  "assignedGroups": [ { "@odata.type": "microsoft.graph.directoryObject" } ]
+  "assignedGroups": [ { "@odata.type": "microsoft.graph.directoryObject" } ],
+  "description": "string",
+  "displayName": "string"
 }
 
 ```
