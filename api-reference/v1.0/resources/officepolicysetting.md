@@ -36,7 +36,7 @@ Here is a JSON representation of the resource
   "allowUserToModify": true,
   "comments": "string",
   "displayName": "string",
-  "help",
+  "help": "string",
   "status": "string",
   "supportedOn": "string"
 }
