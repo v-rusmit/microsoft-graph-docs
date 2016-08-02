@@ -37,6 +37,9 @@ Content-type: application/json
 Content-length: xxx
 
 {
+   "assignedGroups": [
+      "assignedGroups-value"
+    ],
    "description": "description-value",
    "displayName": "displayName-value",
    "id": "id-value"
@@ -55,6 +58,9 @@ Content-type: application/json
 Content-length: xxx
 
 {
+   "assignedGroups": [
+      "assignedGroups-value"
+    ],
    "description": "description-value",
    "displayName": "displayName-value",
    "id": "id-value"
