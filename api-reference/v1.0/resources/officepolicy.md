@@ -11,7 +11,7 @@ Represents an Office policy.
 |[Delete officepolicy](../api/officepolicy_delete.md) | None |Delete officepolicy object. |
 |[List officepolicies](../api/officepolicy_list.md) |[officepolicy](officepolicy.md) collection| Get all the officepolicies in the organization.|
 |[Create officepolicy](../api/officepolicy_post_officepolicies.md) |[officepolicy](officepolicy.md)| Create a new Office Policy by posting to the office policies collection.|
-|[List availableofficepolicyproducts](../api/availableofficepolicyproducts_list.md) |[availableofficepolicyproducts](availableofficepolicyproducts.md)| Create a new Office Policy by posting to the office policies collection.|
+|[List availableofficepolicyproducts](../api/availableofficepolicyproduct_list.md) |[availableofficepolicyproduct](availableofficepolicyproduct.md) collection| List the available officepolicy products.|
 |[Get officepolicysetting](../api/officepolicysetting_get.md) | [officepolicysetting](officepolicysetting.md) |Read properties of an officepolicysetting object.|
 |[Update officepolicysetting](../api/officepolicysetting_update.md) | [officepolicysetting](officepolicysetting.md) |Update officepolicysetting object.|
 |[Delete officepolicysetting](../api/officepolicysetting_delete.md) | None |Delete officepolicysetting object. |
