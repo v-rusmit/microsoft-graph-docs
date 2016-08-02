@@ -7,10 +7,11 @@ Represents an Office policy setting.
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |allowUserToModify|Boolean| **true** if the users are allowed to change configured settings; **false** if the settings are made mandatory. Supports $filter.    |
+|comments|String|User defined comments. Supports $filter.|
 |description|String|An optional description for the officePolicy. Supports $filter.|
 |name|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
 |status|string|The officepolicysetting status: NotConfigured = 0, Enabled = 1, Disabled = 2. Possible values are: `NotConfigured`, `Enabled`, `Disabled`.|
-
+|supportedOn|String|The supported Operating Systems. Supports $filter.|
 
 ### JSON representation
 
@@ -20,9 +21,11 @@ Here is a JSON representation of the resource
   "blockType": "resource",
   "optionalProperties": [
     "allowUserToModify",
+    "comments",
     "description",
     "displayName",
-    "status"
+    "status",
+    "supportedOn"
   ],
   "keyProperty": "id",
   "@odata.type": "microsoft.graph.officepolicy"
@@ -31,9 +34,11 @@ Here is a JSON representation of the resource
 ```json
 {
   "allowUserToModify": true,
+  "comments": "string",
   "description": "string",
   "displayName": "string",
-  "status": "string"
+  "status": "string",
+  "supportedOn": "string"
 }
 
 ```
