@@ -37,6 +37,7 @@ Here is a JSON representation of the resource
   "comments": "string",
   "displayName": "string",
   "help": "string",
+  "options": [{"@odata.type": "microsoft.graph.policyOption"}],
   "status": "string",
   "supportedOn": "string"
 }
