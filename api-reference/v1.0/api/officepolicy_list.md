@@ -49,7 +49,9 @@ Content-length: xxx
  {
   "value": [
     {
-      "assignedGroups": [ { "@odata.type": "microsoft.graph.directoryObject" } ],
+      "assignedGroups": [
+       "assignedGroups-value"
+     ],
       "description": "description-value",
       "displayName": "displayName-value",
       "id": "id-value"
