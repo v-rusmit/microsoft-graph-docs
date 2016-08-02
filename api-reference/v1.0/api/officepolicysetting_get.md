@@ -37,7 +37,7 @@ Here is an example of the response. Note: The response object shown here may be 
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.user"
+  "@odata.type": "microsoft.graph.officePolicySetting"
 } -->
 ```http
 HTTP/1.1 200 OK
@@ -48,8 +48,8 @@ Content-length: xxx
    "comment": "comment-value",
    "displayName": "displayName-value",
    "help": "description-value",
-   "comment": "comment-value",
    "id": "id-value"
+   "options": "description-value",
 }
 ```
 
