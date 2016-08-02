@@ -43,6 +43,7 @@ Here is a JSON representation of the resource
 {
   "description": "string"
   "displayName": "string",
+  "assignedGroups": [ { "@odata.type": "microsoft.graph.directoryObject" } ]
 }
 
 ```
@@ -51,7 +52,7 @@ Here is a JSON representation of the resource
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "user resource",
+  "description": "officePolicy resource",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""
