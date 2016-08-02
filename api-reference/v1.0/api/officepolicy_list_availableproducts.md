@@ -1,4 +1,4 @@
-# List availableOfficePolicyProducts
+# List availableProducts
 
 List all the available officePoliciy available to be configured.
 
