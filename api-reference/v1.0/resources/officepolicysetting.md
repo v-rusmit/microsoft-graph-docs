@@ -26,7 +26,6 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "assignedGroups": [ { "@odata.type": "microsoft.graph.directoryObject" } ],
   "description": "string",
   "displayName": "string"
 }
