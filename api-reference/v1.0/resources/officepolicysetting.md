@@ -8,6 +8,7 @@ Represents an Office policy setting.
 |:---------------|:--------|:----------|
 |description|String|An optional description for the officePolicy. Supports $filter.|
 |name|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
+|status|string|The officepolicysetting status: NotConfigured = 0, Enabled = 1, Disabled = 2. Possible values are: `NotConfigured`, `Enabled`, `Disabled`.|
 
 
 ### JSON representation
@@ -18,7 +19,8 @@ Here is a JSON representation of the resource
   "blockType": "resource",
   "optionalProperties": [
     "description",
-    "displayName"
+    "displayName",
+    "status"
   ],
   "keyProperty": "id",
   "@odata.type": "microsoft.graph.officepolicy"
