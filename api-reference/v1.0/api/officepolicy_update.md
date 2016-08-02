@@ -2,7 +2,7 @@
 
 Update the properties of a officePolicy object.
 ### Prerequisites
-The following **scope** is required to execute this API: *Group.ReadWrite.All*
+The following **scope** is required to execute this API: *OfficePolicy.ReadWrite.All*
 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
@@ -29,7 +29,7 @@ If successful, this method returns a `200 OK` response code and updated [officep
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "update_group"
+  "name": "update_officepolicy"
 }-->
 ```http
 PATCH https://graph.microsoft.com/v1.0/officePolicies/<id>
