@@ -1,6 +1,6 @@
 # policyoptionnumericvalue resource type
 
-Represents an Office policy option text value. Inherits from [policyOption](policyoption.md).
+Represents an Office policy option numeric value. Inherits from [policyOption](policyoption.md).
 
 
 ### Properties
@@ -12,7 +12,6 @@ Represents an Office policy option text value. Inherits from [policyOption](poli
 |minimumValue|number|The minimum numeric value allowed. Supports $filter.|
 |increment|number|The numeric increment between values. Supports $filter.|
 |value|string|The value to be set. Supports $filter.|
-|valueType|string|The value type: String = 0, Boolean = 1, Integer = 2. Possible values are: `String`, `Boolean`, `Integer`.|
 
 ### JSON representation
 
@@ -26,8 +25,7 @@ Here is a JSON representation of the resource
     "label",
     "minimumValue",
     "maximumValue",
-    "value",
-    "valueType"
+    "value"
   ],
   "keyProperty": "id",
   "@odata.type": "microsoft.graph.policyoption"
@@ -40,8 +38,7 @@ Here is a JSON representation of the resource
   "label": "string",
   "minimumValue": 1024,
   "maximumValue": 1024,
-  "value": "string",
-  "valueType": "string"
+  "value": "string"
 }
 
 ```
