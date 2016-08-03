@@ -8,7 +8,7 @@ Represents an Office policy option value pairs. Inherits from [policyOption](pol
 |:---------------|:--------|:----------|
 |defaultValue|String|The default value of the value. Inherited from [policyOption](policyoption.md).|
 |label|String|The label of the option. Inherited from [policyOption](policyoption.md). Supports $filter.|
-|value|String|The value to be set. Inherited from [policyOption](policyoption.md). Supports $filter.|
+|values|keyValue collection|The collection of key value pairs. |
 
 ### JSON representation
 
@@ -30,7 +30,7 @@ Here is a JSON representation of the resource
 {
   "defaultValue": "string",
   "label": "string",
-  "value": [{"string", "string"}],
+  "value": [{"@odata.type": "microsoft.graph.keyvalue"}],
   "valueType": "string"
 }
 
