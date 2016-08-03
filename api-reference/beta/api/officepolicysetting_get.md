@@ -27,7 +27,7 @@ Here is an example of the request.
   "name": "get_user"
 }-->
 ```http
-GET https://graph.microsoft.com/v1.0/officePolicies/<id>//<Product Name>/settings/<id>
+GET https://graph.microsoft.com/v1.0/officePolicies/<id>/<Product Name>/settings/<id>
 ```
 ##### Response
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
