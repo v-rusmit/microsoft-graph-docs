@@ -1,4 +1,4 @@
-# policyoptionnumericvalue resource type
+# policyoptionbooleanvalue resource type
 
 Represents an Office policy option text value. Inherits from [policyOption](policyoption.md).
 
