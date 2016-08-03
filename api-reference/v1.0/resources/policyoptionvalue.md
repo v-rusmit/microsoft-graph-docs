@@ -6,10 +6,10 @@ Represents an Office policy option value. Inherits from [policyOption](policyopt
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|defaultValue|String|The default value of the value Inherited from [policyOption](policyoption.md).|
-|label|String|The label of the option. Supports $filter.|
+|defaultValue|String|The default value of the value. Inherited from [policyOption](policyoption.md).|
+|label|String|The label of the option. Inherited from [policyOption](policyoption.md). Supports $filter.|
 |valueType|string|The value type: String = 0, Boolean = 1, Integer = 2, . Possible values are: `String`, `Boolean`, `Integer`.|
-|value|String|The value to be set. Supports $filter.|
+|value|String|The value to be set. Inherited from [policyOption](policyoption.md). Supports $filter.|
 
 ### JSON representation
 
