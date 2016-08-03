@@ -6,9 +6,7 @@ Represents an Office policy option.
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|defaultValue|String|The default value of the value |
 |label|String|The label of the option. Supports $filter.|
-|value|String|The value to be set. Supports $filter.|
 
 ### JSON representation
 
@@ -17,9 +15,7 @@ Here is a JSON representation of the resource
 <!-- {
   "blockType": "resource",
   "optionalProperties": [
-    "defaultValue",
-    "label",
-    "value"
+    "label"
   ],
   "keyProperty": "id",
   "@odata.type": "microsoft.graph.policyoption"
@@ -27,9 +23,7 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "defaultValue": "string",
   "label": "string",
-  "value": "string"
 }
 
 ```
