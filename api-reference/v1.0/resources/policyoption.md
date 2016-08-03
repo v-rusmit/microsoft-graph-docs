@@ -6,6 +6,7 @@ Represents an Office policy option.
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
+|defaultValue|String|The default value of the value |
 |label|String|The label of the option. Supports $filter.|
 |valueType|string|The value type: String = 0, Boolean = 1, Integer = 2, . Possible values are: `String`, `Boolean`, `Integer`.|
 |value|String|The value to be set. Supports $filter.|
@@ -17,12 +18,10 @@ Here is a JSON representation of the resource
 <!-- {
   "blockType": "resource",
   "optionalProperties": [
-    "allowUserToModify",
-    "comments",
-    "displayName",
-    "help",
-    "status",
-    "supportedOn"
+    "defaultValue",
+    "label",
+    "valueType",
+    "value"
   ],
   "keyProperty": "id",
   "@odata.type": "microsoft.graph.policyoption"
@@ -30,13 +29,10 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "allowUserToModify": true,
-  "comments": "string",
-  "displayName": "string",
-  "help": "string",
-  "options": [{"@odata.type": "microsoft.graph.policyOption"}],
-  "status": "string",
-  "supportedOn": "string"
+  "defaultValue": "string",
+  "label": "string",
+  "valueType": "string",
+  "value": "string"
 }
 
 ```
