@@ -7,12 +7,9 @@ Represents an Office policy option.
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |allowUserToModify|Boolean| **true** if the users are allowed to change configured settings; **false** if the settings are made mandatory. Supports $filter.    |
-|comments|String|User defined comments. Supports $filter.|
-|help|String|The help describes the details of the setting. Supports $filter.|
-|name|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
-|options|[policyOption](policyoption.md) collection|The options that are available for the policy setting. Read-only. Not nullable.            |
-|status|string|The officepolicysetting status: NotConfigured = 0, Enabled = 1, Disabled = 2. Possible values are: `NotConfigured`, `Enabled`, `Disabled`.|
-|supportedOn|String|The supported Operating Systems. Supports $filter.|
+|label|String|The label of the option. Supports $filter.|
+|valueType|string|The value type: String = 0, Boolean = 1, Integer = 2, . Possible values are: `String`, `Boolean`, `Integer`.|
+|value|String|The value to be set. Supports $filter.|
 
 ### JSON representation
 
