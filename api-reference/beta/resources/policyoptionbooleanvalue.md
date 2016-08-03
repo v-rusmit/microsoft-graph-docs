@@ -5,7 +5,7 @@ Represents an Office policy option boolean value. Inherits from [policyOption](p
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|defaultValue|string|The default value of the value.|
+|defaultValue|boolean|The default value of the value.|
 |label|string|The label of the option. Inherited from [policyOption](policyoption.md). Supports $filter.|
 |value|boolean|The value to be set.|
 
