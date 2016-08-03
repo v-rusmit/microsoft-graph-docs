@@ -8,7 +8,7 @@ Represents an Office policy option text value. Inherits from [policyOption](poli
 |:---------------|:--------|:----------|
 |defaultValue|String|The default value of the value.|
 |label|String|The label of the option. Inherited from [policyOption](policyoption.md). Supports $filter.|
-|value|String|The value to be set. Supports $filter.|
+|values|String|A collection of key value pairs. Supports $filter.|
 
 ### JSON representation
 
@@ -19,7 +19,7 @@ Here is a JSON representation of the resource
   "optionalProperties": [
     "defaultValue",
     "label",
-    "value"
+    "values"
   ],
   "keyProperty": "id",
   "@odata.type": "microsoft.graph.policyoption"
@@ -29,7 +29,7 @@ Here is a JSON representation of the resource
 {
   "defaultValue": "string",
   "label": "string",
-  "value": ["string"]
+  "values": [{"@odata.type": "microsoft.graph.keyvalue"}]
 }
 
 ```
