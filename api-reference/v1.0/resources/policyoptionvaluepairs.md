@@ -30,7 +30,7 @@ Here is a JSON representation of the resource
 {
   "defaultValue": "string",
   "label": "string",
-  "value": "string",
+  "value": [{"string", "string"}],
   "valueType": "string"
 }
 
