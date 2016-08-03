@@ -45,7 +45,7 @@ Content-length: xxx
    "comment": "comment-value",
    "displayName": "displayName-value",
    "help": "description-value",
-   "id": "id-value"
+   "id": "id-value",
    "options": "description-value",
 }
 ```
