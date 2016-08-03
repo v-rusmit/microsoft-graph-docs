@@ -48,10 +48,13 @@ Content-length: xxx
 
  {
   "value": [
-    {
-      "id": "id-value",
-      "displayName": "displayName-value"
-    }
+   {
+      "comment": "comment-value",
+      "displayName": "displayName-value",
+      "help": "description-value",
+      "id": "id-value"
+      "options": "description-value",
+   }
   ]
 }
 
