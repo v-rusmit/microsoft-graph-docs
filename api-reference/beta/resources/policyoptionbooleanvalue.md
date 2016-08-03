@@ -1,15 +1,13 @@
 # policyoptionbooleanvalue resource type
 
-Represents an Office policy option text value. Inherits from [policyOption](policyoption.md).
-
+Represents an Office policy option boolean value. Inherits from [policyOption](policyoption.md).
 
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|defaultValue|String|The default value of the value.|
-|label|String|The label of the option. Inherited from [policyOption](policyoption.md). Supports $filter.|
-|value|String|The value to be set.|
-|valueType|string|The value type: String = 0, Boolean = 1, Integer = 2. Possible values are: `String`, `Boolean`, `Integer`.|
+|defaultValue|string|The default value of the value.|
+|label|string|The label of the option. Inherited from [policyOption](policyoption.md). Supports $filter.|
+|value|boolean|The value to be set.|
 
 ### JSON representation
 
@@ -21,7 +19,6 @@ Here is a JSON representation of the resource
     "defaultValue",
     "label",
     "value",
-    "valueType"
   ],
   "keyProperty": "id",
   "@odata.type": "microsoft.graph.policyoption"
@@ -29,10 +26,9 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "defaultValue": "string",
+  "defaultValue": true,
   "label": "string",
-  "value": "string",
-  "valueType": "string"
+  "value": true,
 }
 
 ```
