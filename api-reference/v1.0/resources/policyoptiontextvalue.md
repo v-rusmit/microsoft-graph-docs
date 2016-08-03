@@ -21,6 +21,7 @@ Here is a JSON representation of the resource
     "defaultValue",
     "label",
     "value"
+    "valueType"
   ],
   "keyProperty": "id",
   "@odata.type": "microsoft.graph.policyoption"
@@ -30,7 +31,8 @@ Here is a JSON representation of the resource
 {
   "defaultValue": "string",
   "label": "string",
-  "value": "string"
+  "value": "string",
+  "valueType": "string"
 }
 
 ```
