@@ -1,6 +1,6 @@
-# policyoptionvalue resource type
+# policyoptiontextvalue resource type
 
-Represents an Office policy option value. Inherits from [policyOption](policyoption.md).
+Represents an Office policy option text value. Inherits from [policyOption](policyoption.md).
 
 
 ### Properties
