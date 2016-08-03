@@ -6,7 +6,6 @@ Represents an Office policy option.
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|allowUserToModify|Boolean| **true** if the users are allowed to change configured settings; **false** if the settings are made mandatory. Supports $filter.    |
 |label|String|The label of the option. Supports $filter.|
 |valueType|string|The value type: String = 0, Boolean = 1, Integer = 2, . Possible values are: `String`, `Boolean`, `Integer`.|
 |value|String|The value to be set. Supports $filter.|
