@@ -55,7 +55,7 @@ Here is a JSON representation of the resource
   "draftSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ],
   "id": "string (identifier)",
   "policyEnabled": true,
-  "previousSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ],
+  "previousSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ]
 }
 
 ```
