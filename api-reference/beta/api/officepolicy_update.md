@@ -19,8 +19,12 @@ In the request body, supply the values for relevant fields that should be update
 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|description|String|An optional description for the group. |
-|displayName|String|The display name for the group. This property is required when a group is created and it cannot be cleared during updates. Supports $filter and $orderby.|
+|activeSettings|[officePolicySetting](officepolicysetting.md) collection|The Office Policy settings that are actively applied with the policy. Supports $filter.|
+|assignedGroups|[directoryObject](directoryobject.md) collection|The Office 365 Groups to which the policy is assigned. Supports $filter.|
+|description|String|An optional description for the officePolicy. Supports $filter.|
+|displayName|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
+|draftSettings|[officePolicySetting](officepolicysetting.md) collection|he Office Policy settings that have been modified but not been applied to the policy. Supports $filter.|
+|policyEnabled|Boolean| **true** if the policy is enabled; otherwise, **false**. This property is required when a policy is created. Supports $filter.   |
 
 ### Response
 If successful, this method returns a `200 OK` response code and updated [officepolicy](../resources/officepolicy.md) object in the response body.
