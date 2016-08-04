@@ -1,8 +1,6 @@
 # Update officePolicy
 
 Update the properties of a officePolicy object.
-### Prerequisites
-The following **scope** is required to execute this API: *OfficePolicy.ReadWrite.All*
 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
