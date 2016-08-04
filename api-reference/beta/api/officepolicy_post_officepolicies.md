@@ -51,6 +51,7 @@ Content-length: xxx
    "draftSettings": [
       "draftSettings-value"
     ]
+    "policyEnabled": "policyEnabled-value"
 }
 ```
 In the request body, supply a JSON representation of [officePolicy](../resources/officepolicy.md) object.
@@ -79,6 +80,7 @@ Content-length: xxx
       "draftSettings-value"
     ],
     "id": "id-value",
+    "policyEnabled": "policyEnabled-value"
 }
 ```
 
