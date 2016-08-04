@@ -27,7 +27,7 @@ If successful, this method returns a `200 OK` response code and [officepolicy](.
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "get_user"
+  "name": "get_officepolicy"
 }-->
 ```http
 GET https://graph.microsoft.com/v1.0/officePolicies/<id>
@@ -50,7 +50,8 @@ Content-length: xxx
     ],
    "displayName": "displayName-value",
    "description": "description-value",
-   "id": "id-value"
+   "id": "id-value",
+   "activeSettings": "activeSettings-value"
 }
 ```
 
