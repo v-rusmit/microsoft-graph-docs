@@ -50,7 +50,7 @@ Content-length: xxx
    "displayName": "displayName-value",
    "draftSettings": [
       "draftSettings-value"
-    ]
+    ],
     "policyEnabled": "policyEnabled-value"
 }
 ```
