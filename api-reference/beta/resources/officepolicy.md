@@ -47,7 +47,8 @@ Here is a JSON representation of the resource
   "assignedGroups": [ { "@odata.type": "microsoft.graph.directoryObject" } ],
   "description": "string",
   "displayName": "string",
-  "draftSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ]
+  "draftSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ],
+  "id": "string (identifier)",
 }
 
 ```
