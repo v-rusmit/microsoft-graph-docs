@@ -21,12 +21,13 @@ Represents an Office policy.
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
+|activeSettings|[officePolicySetting](officepolicysetting.md) collection|The Office Policy settings that are actively applied with the policy. Supports $filter.|
 |assignedGroups|[directoryObject](directoryobject.md) collection|The Office 365 Groups to which the policy is assigned. Supports $filter.|
 |description|String|An optional description for the officePolicy. Supports $filter.|
-|id|String|The unique identifier for the officePolicy. Key. Not nullable. Read-only.|
-|name|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
-|activeSettings|[officePolicySetting](officepolicysetting.md) collection|The Office Policy settings that are actively applied with the policy. Supports $filter.|
+|displayName|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
 |draftSettings|[officePolicySetting](officepolicysetting.md) collection|he Office Policy settings that have been modified but not been applied to the policy. Supports $filter.|
+|enabled|Boolean|An optional description for the officePolicy. Supports $filter.|
+|id|String|The unique identifier for the officePolicy. Key. Not nullable. Read-only.|
 
 ### JSON representation
 
@@ -49,6 +50,7 @@ Here is a JSON representation of the resource
   "description": "string",
   "displayName": "string",
   "draftSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ],
+  "enabled": true,
   "id": "string (identifier)",
 }
 
