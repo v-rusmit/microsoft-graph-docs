@@ -54,6 +54,7 @@ Content-length: xxx
       "draftSettings-value"
     ],
    "id": "id-value",
+   "policyEnabled": "policyEnabled-value"
 }
 ```
 
