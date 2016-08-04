@@ -12,7 +12,7 @@ Represents an Office policy.
 |[List officepolicies](../api/officepolicy_list.md) |[officepolicy](officepolicy.md) collection| Get all the officepolicies in the organization.|
 |[Create officepolicy](../api/officepolicy_post_officepolicies.md) |[officepolicy](officepolicy.md)| Create a new officePolicy by posting to the officePolicies collection.|
 |[activateDraftSettings](../api/officepolicy_activatedraftsettings.md)|None|Activates the draft settings.|
-|[rollbackActiveSettings](../api/officepolicy_rollbackactivesettings.md)|None|Rollsback the active settings to the last previous state.|
+|[rollbackActiveSettings](../api/officepolicy_rollbackactivesettings.md)|None|Restores the previously active settings.|
 |[List availableofficepolicyproducts](../api/officepolicy_list_availableproducts.md) |[availableofficepolicyproduct](officepolicy_list_availablesettings.md) collection| List the available officePolicy products.|
 |[List availableofficepolicysettings](../api/officepolicy_list_availablesettings.md) |[availableofficepolicysetting](availableofficepolicysetting.md) collection| List the available officePolicy settings.|
 |[Get officepolicysetting](../api/officepolicysetting_get.md) | [officepolicysetting](officepolicysetting.md) |Read properties of an officePolicySetting object.|
