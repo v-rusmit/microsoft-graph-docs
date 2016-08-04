@@ -23,6 +23,7 @@ Represents an Office policy.
 |:---------------|:--------|:----------|
 |assignedGroups|directoryObject collection|The Office 365 Groups to which the policy is assigned. Supports $filter.|
 |description|String|An optional description for the officePolicy. Supports $filter.|
+|id|String|The unique identifier for the officePolicy. Key. Not nullable. Read-only.|
 |name|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
 |activeSettings|officePolicySetting collection|The Office Policy settings that are actively applied with the policy. Supports $filter.|
 |draftSettings|officePolicySetting collection|he Office Policy settings that have been modified but not been applied to the policy. Supports $filter.|
