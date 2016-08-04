@@ -1,12 +1,11 @@
-# Delete officePolicy
+# Delete officePolicySetting
 
-Delete officePolicy.
-### Prerequisites
-One of the following **scopes** is required to execute this API: _Officepolicy.ReadWrite.All_
+Delete officePolicySetting.
+
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-DELETE /officePolicies/<id>
+DELETE /officePolicies/<id>/<Product Name>/settings/<id>
 ```
 ### Request headers
 | Name       | Type | Description|
@@ -25,10 +24,10 @@ If successful, this method returns `204, No Content` response code. It does not 
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "delete_officepolicy"
+  "name": "delete_officepolicysetting"
 }-->
 ```http
-DELETE https://graph.microsoft.com/v1.0/officePolicies/<id>
+DELETE https://graph.microsoft.com/v1.0/officePolicies/<id>/<Product Name>/settings/<id>
 ```
 ##### Response
 Here is an example of the response. 
@@ -44,7 +43,7 @@ HTTP/1.1 204 No Content
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "Delete officepolicy",
+  "description": "Delete officepolicysetting",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""
