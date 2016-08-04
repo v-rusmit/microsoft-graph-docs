@@ -1,6 +1,6 @@
 # Get officePolicy
 
-Retrieve the properties and relationships of office policy object.
+Retrieve the properties of the office policy object.
 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
@@ -49,7 +49,7 @@ Content-length: xxx
    "description": "description-value",
    "id": "id-value",
    "activeSettings": "activeSettings-value",
-   "draftSettings": "draftSettings-value",
+   "draftSettings": "draftSettings-value"
 }
 ```
 
