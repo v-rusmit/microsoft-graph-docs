@@ -59,7 +59,10 @@ Content-length: xxx
         "draftSettings-value"
       ],
       "id": "id-value",
-      "policyEnabled": "policyEnabled-value"
+      "policyEnabled": "policyEnabled-value",
+      "previousSettings": [
+        "previousSettings-value"
+      ],
     }
   ]
 }
