@@ -52,9 +52,15 @@ Content-length: xxx
       "assignedGroups": [
        "assignedGroups-value"
       ],
-      "description": "description-value",
       "displayName": "displayName-value",
-      "id": "id-value"
+      "description": "description-value",
+      "id": "id-value",
+      "activeSettings": [
+        "activeSettings-value"
+      ],
+      "draftSettings": [
+        "draftSettings-value"
+      ]
     }
   ]
 }
