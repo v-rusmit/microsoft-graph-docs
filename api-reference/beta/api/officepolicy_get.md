@@ -55,6 +55,9 @@ Content-length: xxx
     ],
    "id": "id-value",
    "policyEnabled": "policyEnabled-value"
+   "previousSettings": [
+      "previousSettings-value"
+    ],
 }
 ```
 
