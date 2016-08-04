@@ -21,6 +21,7 @@ Represents an Office policy.
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
+|assignedGroups|String|The Office 365 Groups to which the policy is assigned. Supports $filter.|
 |description|String|An optional description for the officePolicy. Supports $filter.|
 |name|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
 
@@ -43,7 +44,9 @@ Here is a JSON representation of the resource
 {
   "assignedGroups": [ { "@odata.type": "microsoft.graph.directoryObject" } ],
   "description": "string",
-  "displayName": "string"
+  "displayName": "string",
+  "activeSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ],
+  "draftSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ]
 }
 
 ```
