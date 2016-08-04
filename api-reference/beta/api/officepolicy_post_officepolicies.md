@@ -40,8 +40,17 @@ Content-type: application/json
 Content-length: xxx
 
 {
-  "description": "description-value",
-  "displayName": "displayName-value",
+   "assignedGroups": [
+      "assignedGroups-value"
+    ],
+   "displayName": "displayName-value",
+   "description": "description-value",
+   "activeSettings": [
+      "activeSettings-value"
+    ],
+   "draftSettings": [
+      "draftSettings-value"
+    ]
 }
 ```
 In the request body, supply a JSON representation of [officePolicy](../resources/officepolicy.md) object.
@@ -58,8 +67,17 @@ Content-type: application/json
 Content-length: xxx
 
 {
-  "description": "description-value",
-  "displayName": "displayName-value",
+   "assignedGroups": [
+      "assignedGroups-value"
+    ],
+   "displayName": "displayName-value",
+   "description": "description-value",
+   "activeSettings": [
+      "activeSettings-value"
+    ],
+   "draftSettings": [
+      "draftSettings-value"
+    ]
 }
 ```
 
