@@ -28,6 +28,7 @@ Represents an Office policy.
 |draftSettings|[officePolicySetting](officepolicysetting.md) collection|he Office Policy settings that have been modified but not been applied to the policy. Supports $filter.|
 |id|String|The unique identifier for the officePolicy. Key. Not nullable. Read-only.|
 |policyEnabled|Boolean| **true** if the policy is enabled; otherwise, **false**. This property is required when a policy is created. Supports $filter.   |
+|previousSettings|[officePolicySetting](officepolicysetting.md) collection|The Office Policy settings that are were previously active. Supports $filter.|
 
 ### JSON representation
 
@@ -51,7 +52,8 @@ Here is a JSON representation of the resource
   "displayName": "string",
   "draftSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ],
   "id": "string (identifier)",
-  "policyEnabled": true
+  "policyEnabled": true,
+  "previousSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ],
 }
 
 ```
