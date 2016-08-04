@@ -35,12 +35,15 @@ Content-type: application/json
 Content-length: xxx
 
 {
-   "assignedGroups": [
-      "assignedGroups-value"
-    ],
-   "description": "description-value",
+   "allowUserToModify": "allowUserToModify-value",
+   "comments": "comments-value",
    "displayName": "displayName-value",
-   "id": "id-value"
+   "help": "help-value",
+   "options": [
+       "options-value"
+   ],
+   "status": "status-value",
+   "supportedOn": "supportedOn-value"
 }
 ```
 ##### Response
@@ -56,12 +59,15 @@ Content-type: application/json
 Content-length: xxx
 
 {
-   "assignedGroups": [
-      "assignedGroups-value"
-    ],
-   "description": "description-value",
+   "allowUserToModify": "allowUserToModify-value",
+   "comments": "comments-value",
    "displayName": "displayName-value",
-   "id": "id-value"
+   "help": "help-value",
+   "options": [
+       "options-value"
+   ],
+   "status": "status-value",
+   "supportedOn": "supportedOn-value"
 }
 ```
 
