@@ -42,9 +42,6 @@ Content-type: application/json
 Content-length: xxx
 
 {
-   "activeSettings": [
-      "activeSettings-value"
-    ],
    "assignedGroups": [
       "assignedGroups-value"
     ],
@@ -82,7 +79,10 @@ Content-length: xxx
       "draftSettings-value"
     ],
     "id": "id-value",
-    "policyEnabled": "policyEnabled-value"
+    "policyEnabled": "policyEnabled-value",
+   "previousSettings": [
+      "previousSettings-value"
+    ],
 }
 ```
 
