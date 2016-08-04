@@ -46,7 +46,9 @@ Content-length: xxx
    "comments": "comments-value",
    "displayName": "displayName-value",
    "help": "help-value",
-   "options": [{"@odata.type": "microsoft.graph.policyOption"}],
+   "options": [
+       "options-value"
+   ],
    "status": "status-value",
    "supportedOn": "supportedOn-value"
 }
