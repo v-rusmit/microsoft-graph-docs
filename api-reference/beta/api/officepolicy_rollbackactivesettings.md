@@ -1,5 +1,5 @@
 # officePolicy: rollbackActiveSettings
-Activates the settings that are currently set in the draftSettings property.  The active settings are then saved to the previousSettings property.
+Restores the settings that are currently set in the previousSettings property to the activeSettings.  The active settings are then saved to the draftSettings property.
 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
