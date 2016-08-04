@@ -16,7 +16,7 @@ Represents an Office policy.
 |[Get officepolicysetting](../api/officepolicysetting_get.md) | [officepolicysetting](officepolicysetting.md) |Read properties of an officePolicySetting object.|
 |[Update officepolicysetting](../api/officepolicysetting_update.md) | [officepolicysetting](officepolicysetting.md) |Update officePolicySetting object.|
 |[Delete officepolicysetting](../api/officepolicysetting_delete.md) | None |Delete officePolicySetting object. |
-|[List officepolicysettings](../api/officepolicy_list_officepolicysettings.md) |[officepolicysetting](officepolicysettings.md) collection| Get all the officePolicySettings in the officePolicy object.|
+|[List officepolicysettings](../api/officepolicy_list_officepolicysettings.md) |[officepolicysetting](officepolicysetting.md) collection| Get all the officePolicySettings in the officePolicy object.|
 
 ### Properties
 | Property	   | Type	|Description|
