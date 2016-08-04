@@ -26,8 +26,8 @@ Represents an Office policy.
 |description|String|An optional description for the officePolicy. Supports $filter.|
 |displayName|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
 |draftSettings|[officePolicySetting](officepolicysetting.md) collection|he Office Policy settings that have been modified but not been applied to the policy. Supports $filter.|
-|enabled|Boolean|An optional description for the officePolicy. Supports $filter.|
 |id|String|The unique identifier for the officePolicy. Key. Not nullable. Read-only.|
+|policyEnabled|Boolean| **true** if the policy is enabled; otherwise, **false**. This property is required when a policy is created. Supports $filter.   |
 
 ### JSON representation
 
