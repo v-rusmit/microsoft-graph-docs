@@ -19,8 +19,12 @@ The following table shows the properties that are required when you create a gro
 
 | Parameter | Type | Description|
 |:---------------|:--------|:----------|
-| description | string | An optional description for the officePolicy. |
-| displayName | string | The name to display in the address book for the group. |
+|activeSettings|[officePolicySetting](officepolicysetting.md) collection|The Office Policy settings that are actively applied with the policy. Supports $filter.|
+|assignedGroups|[directoryObject](directoryobject.md) collection|The Office 365 Groups to which the policy is assigned. Supports $filter.|
+|description|String|An optional description for the officePolicy. Supports $filter.|
+|displayName|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
+|draftSettings|[officePolicySetting](officepolicysetting.md) collection|he Office Policy settings that have been modified but not been applied to the policy. Supports $filter.|
+|policyEnabled|Boolean| **true** if the policy is enabled; otherwise, **false**. This property is required when a policy is created. Supports $filter.   |
 
 ### Response
 If successful, this method returns `201, Created` response code and [officePolicy](../resources/officepolicy.md) object in the response body.
