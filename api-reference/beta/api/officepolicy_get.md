@@ -52,7 +52,7 @@ Content-length: xxx
    "displayName": "displayName-value",
    "draftSettings": [
       "draftSettings-value"
-    ]
+    ],
    "id": "id-value",
 }
 ```
