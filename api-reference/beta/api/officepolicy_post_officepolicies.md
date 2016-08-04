@@ -2,8 +2,6 @@
 
 Use this API to create a new officePolicy as specified in the request body. 
 
-### Prerequisites
-The following **scope** is required to execute this API: _OfficePolicy.ReadWrite.All_ 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
