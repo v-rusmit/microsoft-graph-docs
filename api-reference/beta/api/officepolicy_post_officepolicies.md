@@ -77,7 +77,7 @@ Content-length: xxx
    "description": "description-value",
    "draftSettings": [
       "draftSettings-value"
-    ]
+    ],
     "id": "id-value",
 }
 ```
