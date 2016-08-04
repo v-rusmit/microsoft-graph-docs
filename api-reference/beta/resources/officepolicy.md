@@ -43,10 +43,10 @@ Here is a JSON representation of the resource
 
 ```json
 {
+  "activeSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ],
   "assignedGroups": [ { "@odata.type": "microsoft.graph.directoryObject" } ],
   "description": "string",
   "displayName": "string",
-  "activeSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ],
   "draftSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ]
 }
 
