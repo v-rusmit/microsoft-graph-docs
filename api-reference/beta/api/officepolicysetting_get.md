@@ -42,11 +42,13 @@ Content-type: application/json
 Content-length: xxx
 
 {
-   "comment": "comment-value",
+   "allowUserToModify": "allowUserToModify-value",
+   "comments": "comments-value",
    "displayName": "displayName-value",
-   "help": "description-value",
-   "id": "id-value",
-   "options": "description-value",
+   "help": "help-value",
+   "options": [{"@odata.type": "microsoft.graph.policyOption"}],
+   "status": "status-value",
+   "supportedOn": "supportedOn-value"
 }
 ```
 
