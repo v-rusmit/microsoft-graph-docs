@@ -1,8 +1,6 @@
-# Update officePolicy
+# Update officePolicySetting
 
-Update the properties of a officePolicy object.
-### Prerequisites
-The following **scope** is required to execute this API: *OfficePolicy.ReadWrite.All*
+Update the properties of a officePolicySetting object.
 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
@@ -23,7 +21,7 @@ In the request body, supply the values for relevant fields that should be update
 |displayName|String|The display name for the group. This property is required when a group is created and it cannot be cleared during updates. Supports $filter and $orderby.|
 
 ### Response
-If successful, this method returns a `200 OK` response code and updated [officepolicy](../resources/officepolicy.md) object in the response body.
+If successful, this method returns a `200 OK` response code and updated [officepolicysetting](../resources/officepolicysetting.md) object in the response body.
 ### Example
 ##### Request
 Here is an example of the request.
