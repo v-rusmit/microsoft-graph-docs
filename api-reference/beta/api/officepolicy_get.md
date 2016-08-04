@@ -2,9 +2,6 @@
 
 Retrieve the properties and relationships of office policy object.
 
-### Prerequisites
-One of the following **scopes** is required to execute this API:
-*User.Read; User.ReadWrite; User.ReadBasic.All; User.Read.All; User.ReadWrite.All; Directory.Read.All; Directory.ReadWrite.All; Directory.AccessAsUser.All*
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
@@ -59,7 +56,7 @@ Content-length: xxx
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "Get user",
+  "description": "Get officepolicy",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""
