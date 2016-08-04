@@ -50,8 +50,8 @@ Here is a JSON representation of the resource
   "description": "string",
   "displayName": "string",
   "draftSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ],
-  "enabled": true,
   "id": "string (identifier)",
+  "policyEnabled": true
 }
 
 ```
