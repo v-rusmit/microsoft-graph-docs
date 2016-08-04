@@ -48,7 +48,8 @@ Content-length: xxx
    "displayName": "displayName-value",
    "description": "description-value",
    "id": "id-value",
-   "activeSettings": "activeSettings-value"
+   "activeSettings": "activeSettings-value",
+   "draftSettings": "draftSettings-value",
 }
 ```
 
