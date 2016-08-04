@@ -47,7 +47,8 @@ Content-length: xxx
    "displayName": "displayName-value",
    "draftSettings": [
       "draftSettings-value"
-    ]
+    ],
+   "policyEnabled": "policyEnabled-value"
 }
 ```
 ##### Response
@@ -74,7 +75,8 @@ Content-length: xxx
    "draftSettings": [
       "draftSettings-value"
     ],
-   "id": "id-value"
+   "id": "id-value",
+   "policyEnabled": "policyEnabled-value"
 }
 ```
 
