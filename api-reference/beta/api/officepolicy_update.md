@@ -63,18 +63,18 @@ Content-type: application/json
 Content-length: xxx
 
 {
-   "assignedGroups": [
-      "assignedGroups-value"
-    ],
-   "displayName": "displayName-value",
-   "description": "description-value",
-   "id": "id-value",
    "activeSettings": [
       "activeSettings-value"
     ],
+   "assignedGroups": [
+      "assignedGroups-value"
+    ],
+   "description": "description-value",
+   "displayName": "displayName-value",
    "draftSettings": [
       "draftSettings-value"
-    ]
+    ],
+   "id": "id-value"
 }
 ```
 
