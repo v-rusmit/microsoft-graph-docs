@@ -36,6 +36,7 @@ Content-length: xxx
 
 {
    "allowUserToModify": "allowUserToModify-value",
+   "category": "category-value",
    "comments": "comments-value",
    "displayName": "displayName-value",
    "help": "help-value",
@@ -60,6 +61,7 @@ Content-length: xxx
 
 {
    "allowUserToModify": "allowUserToModify-value",
+   "category": "category-value",
    "comments": "comments-value",
    "displayName": "displayName-value",
    "help": "help-value",
