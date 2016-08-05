@@ -33,7 +33,7 @@ Here is an example of the request.
   "name": "update_officepolicy"
 }-->
 ```http
-PATCH https://graph.microsoft.com/v1.0/officePolicies/<id>
+PATCH https://graph.microsoft.com/beta/officePolicies/<id>
 Content-type: application/json
 Content-length: xxx
 
@@ -50,7 +50,7 @@ Content-length: xxx
 }
 ```
 ##### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
 <!-- {
   "blockType": "response",
   "truncated": true,
