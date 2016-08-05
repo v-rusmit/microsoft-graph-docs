@@ -49,11 +49,15 @@ Content-length: xxx
  {
   "value": [
    {
-      "comment": "comment-value",
+      "allowUserToModify": "allowUserToModify-value",
+      "comments": "comments-value",
       "displayName": "displayName-value",
-      "help": "description-value",
-      "id": "id-value",
-      "options": "description-value",
+      "help": "help-value",
+      "options": [
+         "options-value"
+      ],
+      "status": "status-value",
+      "supportedOn": "supportedOn-value"
    }
   ]
 }
