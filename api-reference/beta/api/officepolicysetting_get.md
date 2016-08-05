@@ -50,6 +50,7 @@ Content-length: xxx
    "options": [
        "options-value"
    ],
+   "settingState": "settingState-value",
    "status": "status-value",
    "supportedOn": "supportedOn-value"
 }
