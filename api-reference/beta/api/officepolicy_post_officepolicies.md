@@ -13,31 +13,22 @@ POST /officePolicies
 | Authorization  | string  | Bearer <token>. Required. |
 
 ### Request body
-In the request body, supply a JSON representation of [officePolicy](../resources/officepolicy.md) object.
-
-The following table shows the properties that are required when you create a group.
-
-| Parameter | Type | Description|
-|:---------------|:--------|:----------|
-|assignedGroups|[directoryObject](directoryobject.md) collection|The Office 365 Groups to which the policy is assigned. Supports $filter.|
-|description|String|An optional description for the officePolicy. Supports $filter.|
-|displayName|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
-|policyEnabled|Boolean| **true** if the policy is enabled; otherwise, **false**. This property is required when a policy is created. Supports $filter.   |
+In the request body, supply a JSON representation of [officePolicy](../resources/configurationsetting.md) object.
 
 ### Response
-If successful, this method returns `201, Created` response code and [officePolicy](../resources/officepolicy.md) object in the response body.
+If successful, this method returns `201, Created` response code and [officePolicy](../resources/officepolicysetting.md) object in the response body.
 
 ### Example
 ##### Request
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "create_directoryobject_from_directoryrole"
+  "name": "create_officepolicysetting_from_configurationsetting"
 }-->
 ```http
 POST https://graph.microsoft.com/beta/officepolicies/<id>/settings
 Content-type: application/json
-Content-length: 30
+Content-length: xxx
 
 {
   "configurationSetting": {
@@ -50,7 +41,7 @@ Here is an example of the response. Note: The response object shown here may be 
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.officepolicy"
+  "@odata.type": "microsoft.graph.officepolicysetting"
 } -->
 ```http
 HTTP/1.1 200 OK
@@ -72,7 +63,7 @@ Content-length: xxx
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "Create officepolicy",
+  "description": "Create officepolicysetting",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""
