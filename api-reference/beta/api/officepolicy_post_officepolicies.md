@@ -32,23 +32,19 @@ If successful, this method returns `201, Created` response code and [officePolic
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "create_officePolicy_from_officePolicoes"
+  "name": "create_directoryobject_from_directoryrole"
 }-->
 ```http
-POST https://graph.microsoft.com/beta/officePolicies
+POST https://graph.microsoft.com/beta/officepolicies/<id>/settings
 Content-type: application/json
-Content-length: xxx
+Content-length: 30
 
 {
-   "assignedGroups": [
-      "assignedGroups-value"
-    ],
-   "description": "description-value",
-   "displayName": "displayName-value",
-   "policyEnabled": "policyEnabled-value"
+  "configurationSetting": {
+  }
 }
 ```
-In the request body, supply a JSON representation of [officePolicy](../resources/officepolicy.md) object.
+In the request body, supply a JSON representation of [directoryObject](../resources/configurationsetting.md) object.
 ##### Response
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
