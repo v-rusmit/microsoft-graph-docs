@@ -14,7 +14,7 @@ Represents an Office policy.
 |[activateDraftSettings](../api/officepolicy_activatedraftsettings.md)|None|Activates the draft settings.|
 |[rollbackActiveSettings](../api/officepolicy_rollbackactivesettings.md)|None|Restores the previously active settings.|
 |[List availableofficepolicyproducts](api/officepolicy_list_availableproducts.md) |[officePolicyProduct](../resources/officepolicyproduct.md) collection| List the available officePolicy products.|
-|[List availableofficepolicysettings](../api/officepolicy_list_availablesettings.md) |[officePolicySetting](officepolicysetting.md) collection| List the available officePolicy settings.|
+|[List availableofficepolicysettings](../api/officepolicy_list_availablesettings.md) |[configurationsetting](configurationsetting.md) collection| List the available officePolicy settings.|
 |[Get officepolicysetting](../api/officepolicysetting_get.md) | [officepolicysetting](officepolicysetting.md) |Read properties of an officePolicySetting object.|
 |[Update officepolicysetting](../api/officepolicysetting_update.md) | [officepolicysetting](officepolicysetting.md) |Update officePolicySetting object.|
 |[Delete officepolicysetting](../api/officepolicysetting_delete.md) | None |Delete officePolicySetting object. |
