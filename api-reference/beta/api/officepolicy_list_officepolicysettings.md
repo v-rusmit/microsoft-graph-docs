@@ -26,7 +26,7 @@ Here is an example of the request.
   "name": "get_officepolicies"
 }-->
 ```http
-GET https://graph.microsoft.com/v1.0/officePolicies/<id>/<Product Name>/settings/<id>
+GET https://graph.microsoft.com/beta/officePolicies/<id>/<Product Name>/settings/<id>
 ```
 ##### Response
 Here is an example of the response.
@@ -48,6 +48,7 @@ Content-length: xxx
   "value": [
     {
       "allowUserToModify": "allowUserToModify-value",
+      "category": "category-value",
       "comments": "comments-value",
       "displayName": "displayName-value",
       "help": "help-value",
