@@ -1,6 +1,6 @@
 # List availableSettings
 
-List all the available officePoliciy available to be configured.
+List all the available officePolicySettings available to be configured.
 
 ### Prerequisites
 
