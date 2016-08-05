@@ -6,9 +6,6 @@ List all the officePolicies available in an organization.
 <!-- { "blockType": "ignored" } -->
 ```http
 GET /officepolicies
-GET /officepolicies/activeSettings
-GET /officepolicies/draftSettings
-GET /officepolicies/previousSettings
 ```
 ### Optional query parameters
 This method supports the [OData Query Parameters](http://graph.microsoft.io/docs/overview/query_parameters) to help customize the response.
@@ -57,10 +54,7 @@ Content-length: xxx
       "description": "description-value",
       "displayName": "displayName-value",
       "id": "id-value",
-      "policyEnabled": "policyEnabled-value",
-      "settings": [
-        "settings-value"
-      ],
+      "policyEnabled": "policyEnabled-value"
     }
   ]
 }
