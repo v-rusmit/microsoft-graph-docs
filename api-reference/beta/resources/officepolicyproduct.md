@@ -5,7 +5,7 @@ Represents an Office policy product.
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|displayName|String|The display name of the Office policy product. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
+|displayName|String|The display name of the Office policy product. ReadOnly. Supports $filter and $orderby.|
 
 ### JSON representation
 
@@ -17,7 +17,7 @@ Here is a JSON representation of the resource
     "displayName",
   ],
   "keyProperty": "id",
-  "@odata.type": "microsoft.graph.officepolicy"
+  "@odata.type": "microsoft.graph.officepolicyproduct"
 }-->
 
 ```json
@@ -31,7 +31,7 @@ Here is a JSON representation of the resource
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "officePolicy resource",
+  "description": "officePolicyProduct resource",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""
