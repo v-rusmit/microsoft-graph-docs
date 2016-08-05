@@ -1,11 +1,11 @@
-# List availableSettings
+# List configurationSettings
 
-List all the available officePolicySettings available to be configured.
+List all the available configurationSettings available to be configured.
 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /officepolicies/<Product Name>/availableSettings
+GET /officepolicies/<Product Name>/configurationsettings
 ```
 ### Optional query parameters
 This method supports the [OData Query Parameters](http://graph.microsoft.io/docs/overview/query_parameters) to help customize the response.
@@ -17,7 +17,7 @@ This method supports the [OData Query Parameters](http://graph.microsoft.io/docs
 ### Request body
 Do not supply a request body for this method.
 ### Response
-If successful, this method returns a `200 OK` response code and collection of [officePolicySetting ](../resources/officepolicysetting.md) objects in the response body.
+If successful, this method returns a `200 OK` response code and collection of [configurationSettings ](../resources/configurationsetting.md) objects in the response body.
 ### Example
 ##### Request
 Here is an example of the request.
@@ -26,7 +26,7 @@ Here is an example of the request.
   "name": "get_availableOfficePolicySettings"
 }-->
 ```http
-GET https://graph.microsoft.com/beta/officePolicies/<Product Name>/availableSettings
+GET https://graph.microsoft.com/beta/officePolicies/<Product Name>/configurationsettings
 ```
 ##### Response
 Here is an example of the response.
@@ -34,7 +34,7 @@ Here is an example of the response.
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.availableOfficePolicySetting",
+  "@odata.type": "microsoft.graph.configurationsetting",
   "isCollection": true
 } -->
 ```http
@@ -45,14 +45,12 @@ Content-length: xxx
  {
   "value": [
    {
-      "allowUserToModify": "allowUserToModify-value",
-      "comments": "comments-value",
       "displayName": "displayName-value",
       "help": "help-value",
       "options": [
          "options-value"
       ],
-      "status": "status-value",
+      "id": "id-value",
       "supportedOn": "supportedOn-value"
    }
   ]
@@ -64,7 +62,7 @@ Content-length: xxx
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "List availableofficepolicysettings",
+  "description": "List configurationsetting",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""
