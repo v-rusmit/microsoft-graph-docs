@@ -1,13 +1,13 @@
-# List availableProducts
+# List officePolicyProduct
 
-List all the available officePoliciy available to be configured.
+List all the available officePolicyProducts available to be configured.
 
 ### Prerequisites
 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /officepolicies/availableProducts
+GET /officepolicies/products
 ```
 ### Optional query parameters
 This method supports the [OData Query Parameters](http://graph.microsoft.io/docs/overview/query_parameters) to help customize the response.
@@ -28,7 +28,7 @@ Here is an example of the request.
   "name": "get_availableOfficePolicyProducts"
 }-->
 ```http
-GET https://graph.microsoft.com/beta/officePolicies/availableProducts
+GET https://graph.microsoft.com/beta/officePolicies/products
 ```
 ##### Response
 Here is an example of the response.
@@ -38,7 +38,7 @@ Note: The response object shown here may be truncated for brevity. All of the pr
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.availableOfficePolicyProduct",
+  "@odata.type": "microsoft.graph.officepolicyproduct",
   "isCollection": true
 } -->
 ```http
@@ -61,7 +61,7 @@ Content-length: xxx
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "List availableofficepolicyproducts",
+  "description": "List officePolicyProducts",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""
