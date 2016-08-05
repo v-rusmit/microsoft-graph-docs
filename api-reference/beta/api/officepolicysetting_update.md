@@ -5,7 +5,7 @@ Update the properties of a officePolicySetting object.
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-PATCH /officePolicies/<id>/<Product Name>/settings/<id>
+PATCH /officePolicies/<id>/settings/<id>
 ```
 ### Request headers
 | Name       | Type | Description|
@@ -33,7 +33,7 @@ Here is an example of the request.
   "name": "update_officepolicy"
 }-->
 ```http
-PATCH https://graph.microsoft.com/v1.0/officePolicies/<id>/<Product Name>/settings/<id>
+PATCH https://graph.microsoft.com/v1.0/officePolicies/<id>/settings/<id>
 Content-type: application/json
 Content-length: xxx
 
