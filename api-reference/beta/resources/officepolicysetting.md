@@ -13,6 +13,7 @@ Represents an Office policy setting.
 |displayName|String|The displayName of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
 |options|[policyOption](policyoption.md) collection|The options that are available for the policy setting. Read-only. Not nullable. |
 |productName|String|The product name of the setting. Read-only. Supports $filter.|
+|settingState|String|The officepolicysetting state: Draft = 0, Active = 1, Previous = 2. Possible values are: `Draft`, `Active`, `Previous`.|
 |status|String|The officepolicysetting status: NotConfigured = 0, Enabled = 1, Disabled = 2. Possible values are: `NotConfigured`, `Enabled`, `Disabled`.|
 |supportedOn|String|The supported Operating Systems. Read-only. Supports $filter.|
 
@@ -28,6 +29,7 @@ Here is a JSON representation of the resource
     "comments",
     "displayName",
     "help",
+    "settingState",
     "status",
     "supportedOn"
   ],
@@ -44,6 +46,7 @@ Here is a JSON representation of the resource
   "help": "string",
   "options": [{"@odata.type": "microsoft.graph.policyOption"}],
   "productName": "string",
+  "settingState": "string",
   "status": "string",
   "supportedOn": "string"
 }
