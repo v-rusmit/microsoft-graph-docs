@@ -22,6 +22,7 @@ Here is a JSON representation of the resource
   "blockType": "resource",
   "optionalProperties": [
     "allowUserToModify",
+    "category",
     "comments",
     "displayName",
     "help",
@@ -35,6 +36,7 @@ Here is a JSON representation of the resource
 ```json
 {
   "allowUserToModify": true,
+  "category": "string",
   "comments": "string",
   "displayName": "string",
   "help": "string",
