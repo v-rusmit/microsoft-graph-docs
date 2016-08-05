@@ -36,7 +36,7 @@ Here is an example of the request.
   "name": "create_officePolicy_from_officePolicoes"
 }-->
 ```http
-POST https://graph.microsoft.com/v1.0/officePolicies
+POST https://graph.microsoft.com/beta/officePolicies
 Content-type: application/json
 Content-length: xxx
 
