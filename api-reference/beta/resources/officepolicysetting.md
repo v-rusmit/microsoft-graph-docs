@@ -1,6 +1,6 @@
 # officepolicysetting resource type
 
-Represents an Office policy setting.
+Represents an Office policy setting. Inherits from configurationSetting.
 
 
 ### Properties
