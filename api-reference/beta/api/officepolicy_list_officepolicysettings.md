@@ -29,8 +29,6 @@ Here is an example of the request.
 }-->
 ```http
 GET https://graph.microsoft.com/beta/officePolicies/<id>/settings/active
-GET https://graph.microsoft.com/beta/officePolicies/<id>/settings/draft
-GET https://graph.microsoft.com/beta/officePolicies/<id>/settings/previous
 ```
 ##### Response
 Here is an example of the response.
