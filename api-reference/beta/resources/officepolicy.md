@@ -13,8 +13,8 @@ Represents an Office policy.
 |[Create officepolicy](../api/officepolicy_post_officepolicies.md) |[officepolicy](officepolicy.md)| Create a new officePolicy by posting to the officePolicies collection.|
 |[activateDraftSettings](../api/officepolicy_activatedraftsettings.md)|None|Activates the draft settings.|
 |[rollbackActiveSettings](../api/officepolicy_rollbackactivesettings.md)|None|Restores the previously active settings.|
-|[List availableofficepolicyproducts](api/officepolicy_list_availableproducts.md) |[officePolicyProduct](../resources/officepolicyproduct.md) collection| List the available officePolicy products.|
-|[List configurationSettings](../api/officepolicy_list_configurationsettings.md) |[configurationsetting](configurationsetting.md) collection| List the available configurationsettings.|
+|[List officepolicy available products](api/officepolicy_list_availableproducts.md) |[officePolicyProduct](../resources/officepolicyproduct.md) collection| List the available officePolicy products.|
+|[List officePolicy available configuration settings](../api/officepolicy_list_configurationsettings.md) |[configurationsetting](configurationsetting.md) collection| List the available configurationsettings.|
 |[Get officepolicysetting](../api/officepolicysetting_get.md) | [officepolicysetting](officepolicysetting.md) |Read properties of an officePolicySetting object.|
 |[Update officepolicysetting](../api/officepolicysetting_update.md) | [officepolicysetting](officepolicysetting.md) |Update officePolicySetting object.|
 |[Delete officepolicysetting](../api/officepolicysetting_delete.md) | None |Delete officePolicySetting object. |
