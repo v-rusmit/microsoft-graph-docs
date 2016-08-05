@@ -1,6 +1,6 @@
-# Create officePolicy
+# Create officePolicySetting
 
-Use this API to create a new officePolicy as specified in the request body. 
+Use this API to create a new officePolicySetting as specified in the request body.
 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
@@ -13,10 +13,10 @@ POST /officePolicies
 | Authorization  | string  | Bearer <token>. Required. |
 
 ### Request body
-In the request body, supply a JSON representation of [officePolicy](../resources/configurationsetting.md) object.
+In the request body, supply a JSON representation of [configurationSetting](../resources/configurationsetting.md) object.
 
 ### Response
-If successful, this method returns `201, Created` response code and [officePolicy](../resources/officepolicysetting.md) object in the response body.
+If successful, this method returns `201, Created` response code and [officePolicySetting](../resources/officepolicysetting.md) object in the response body.
 
 ### Example
 ##### Request
