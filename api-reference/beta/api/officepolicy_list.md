@@ -26,7 +26,7 @@ Here is an example of the request.
   "name": "get_officepolicies"
 }-->
 ```http
-GET https://graph.microsoft.com/v1.0/officepolicies
+GET https://graph.microsoft.com/beta/officepolicies
 ```
 ##### Response
 Here is an example of the response.
