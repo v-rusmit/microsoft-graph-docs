@@ -47,10 +47,10 @@ Content-length: xxx
    {
       "displayName": "displayName-value",
       "help": "help-value",
+      "id": "id-value",
       "options": [
          "options-value"
       ],
-      "id": "id-value",
       "supportedOn": "supportedOn-value"
    }
   ]
