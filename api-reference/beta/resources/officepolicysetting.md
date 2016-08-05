@@ -43,6 +43,7 @@ Here is a JSON representation of the resource
   "displayName": "string",
   "help": "string",
   "options": [{"@odata.type": "microsoft.graph.policyOption"}],
+  "productName": "string",
   "status": "string",
   "supportedOn": "string"
 }
