@@ -23,14 +23,12 @@ Represents an Office policy.
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|activeSettings|[officePolicySetting](officepolicysetting.md) collection|The Office Policy settings that are actively applied with the policy. Read-only. Supports $filter.|
 |assignedGroups|[directoryObject](directoryobject.md) collection|The Office 365 Groups to which the policy is assigned. Supports $filter.|
 |description|String|An optional description for the officePolicy. Supports $filter.|
 |displayName|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
-|draftSettings|[officePolicySetting](officepolicysetting.md) collection|The Office Policy settings that have been modified but not been applied to the policy. Supports $filter.|
 |id|String|The unique identifier for the officePolicy. Key. Not nullable. Read-only.|
 |policyEnabled|Boolean| **true** if the policy is enabled; otherwise, **false**. This property is required when a policy is created. Supports $filter.   |
-|previousSettings|[officePolicySetting](officepolicysetting.md) collection|The Office Policy settings that are were previously active. Read-only.  Supports $filter.|
+|settings|[officePolicySetting](officepolicysetting.md) collection|The Office Policy settings configured in the policy. Read-only. Supports $filter.|
 
 ### JSON representation
 
@@ -48,14 +46,12 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "activeSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ],
   "assignedGroups": [ { "@odata.type": "microsoft.graph.directoryObject" } ],
   "description": "string",
   "displayName": "string",
-  "draftSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ],
   "id": "string (identifier)",
   "policyEnabled": true,
-  "previousSettings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ]
+  "settings": [ { "@odata.type": "microsoft.graph.officePolicySetting" } ]
 }
 
 ```
