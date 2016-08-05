@@ -5,7 +5,9 @@ List all the officePolicySetting available in an organization.
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /officePolicies/<id>/<Product Name>/settings/<id>
+GET /officePolicies/<id>/settings/active
+GET /officePolicies/<id>/settings/draft
+GET /officePolicies/<id>/settings/previous
 ```
 ### Optional query parameters
 This method supports the [OData Query Parameters](http://graph.microsoft.io/docs/overview/query_parameters) to help customize the response.
@@ -26,7 +28,9 @@ Here is an example of the request.
   "name": "get_officepolicies"
 }-->
 ```http
-GET https://graph.microsoft.com/beta/officePolicies/<id>/<Product Name>/settings/<id>
+GET https://graph.microsoft.com/beta/officePolicies/<id>/settings/active
+GET https://graph.microsoft.com/beta/officePolicies/<id>/settings/draft
+GET https://graph.microsoft.com/beta/officePolicies/<id>/settings/previous
 ```
 ##### Response
 Here is an example of the response.
