@@ -48,6 +48,7 @@ Content-length: xxx
    "assignedGroups": [
       "assignedGroups-value"
     ],
+   "category": "category-value",
    "description": "description-value",
    "displayName": "displayName-value",
    "draftSettings": [
