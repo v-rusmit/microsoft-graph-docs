@@ -35,7 +35,7 @@ Content-length: xxx
   }
 }
 ```
-In the request body, supply a JSON representation of [directoryObject](../resources/configurationsetting.md) object.
+In the request body, supply a JSON representation of [configurationSetting](../resources/configurationsetting.md) object.
 ##### Response
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
