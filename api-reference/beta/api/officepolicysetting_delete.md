@@ -1,6 +1,6 @@
 # Delete officePolicySetting
 
-Delete officePolicySetting.
+Delete officePolicySetting. Only draft settings can be modified.
 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
