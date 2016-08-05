@@ -28,7 +28,7 @@ Here is an example of the request.
   "name": "get_availableOfficePolicyProducts"
 }-->
 ```http
-GET https://graph.microsoft.com/v1.0/officePolicies/availableProducts
+GET https://graph.microsoft.com/beta/officePolicies/availableProducts
 ```
 ##### Response
 Here is an example of the response.
