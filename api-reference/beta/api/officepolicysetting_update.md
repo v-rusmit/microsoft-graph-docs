@@ -1,6 +1,6 @@
 # Update officePolicySetting
 
-Update the properties of a officePolicySetting object.
+Update the properties of a officePolicySetting object. Only settings with the settingState "Draft" can be updated.
 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
