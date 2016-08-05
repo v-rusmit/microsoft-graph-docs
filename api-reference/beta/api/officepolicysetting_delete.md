@@ -5,7 +5,7 @@ Delete officePolicySetting.
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-DELETE /officePolicies/<id>/<Product Name>/settings/<id>
+DELETE /officePolicies/<id>/settings/<id>
 ```
 ### Request headers
 | Name       | Type | Description|
@@ -27,7 +27,7 @@ Here is an example of the request.
   "name": "delete_officepolicysetting"
 }-->
 ```http
-DELETE https://graph.microsoft.com/v1.0/officePolicies/<id>/<Product Name>/settings/<id>
+DELETE https://graph.microsoft.com/v1.0/officePolicies/<id>/settings/<id>
 ```
 ##### Response
 Here is an example of the response. 
