@@ -8,9 +8,9 @@ Update the properties of a officePolicy object.
 PATCH /officePolicies/<id>
 ```
 ### Request headers
-| Name       | Type | Description|
-|:-----------|:------|:----------|
-| Authorization  | string  | Bearer <token>. Required. |
+| Header       | Value|
+|:-----------|:------|
+| Authorization  | Bearer <token>. Required.  |
 | Content-Type  | application/json  |
 
 ### Request body
