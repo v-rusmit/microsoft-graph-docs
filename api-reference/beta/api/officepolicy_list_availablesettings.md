@@ -2,8 +2,6 @@
 
 List all the available officePolicySettings available to be configured.
 
-### Prerequisites
-
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
@@ -32,8 +30,6 @@ GET https://graph.microsoft.com/beta/officePolicies/<Product Name>/availableSett
 ```
 ##### Response
 Here is an example of the response.
-
-Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 <!-- {
   "blockType": "response",
