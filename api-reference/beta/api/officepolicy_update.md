@@ -22,7 +22,7 @@ In the request body, supply the values for relevant fields that should be update
 |description|String|An optional description for the officePolicy. Supports $filter.|
 |displayName|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
 |policyEnabled|Boolean| **true** if the policy is enabled; otherwise, **false**. This property is required when a policy is created. Supports $filter.   |
-|settings|[officePolicySetting](officepolicysetting.md) collection|The Office Policy settings that have been modified but not been applied to the policy. Supports $filter.|
+|settings|[officePolicySetting](officepolicysetting.md) collection|The Office Policy settings to be configured in the policy.  The settings will be saved in the draft state. Use the [activateDraftSettings](../api/officepolicy_activatedraftsettings.md) after the policy is created to activate the settings. Supports $filter.|
 
 ### Response
 If successful, this method returns a `200 OK` response code and updated [officepolicy](../resources/officepolicy.md) object in the response body.
@@ -47,7 +47,7 @@ Content-length: xxx
    "displayName": "displayName-value",
    "policyEnabled": "policyEnabled-value",
    "settings": [
-      "draftSettings-value"
+      "settings-value"
     ],
 }
 ```
