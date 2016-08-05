@@ -27,7 +27,7 @@ Here is an example of the request.
   "name": "delete_officepolicysetting"
 }-->
 ```http
-DELETE https://graph.microsoft.com/v1.0/officePolicies/<id>/settings/<id>
+DELETE https://graph.microsoft.com/beta/officePolicies/<id>/settings/<id>
 ```
 ##### Response
 Here is an example of the response. 
