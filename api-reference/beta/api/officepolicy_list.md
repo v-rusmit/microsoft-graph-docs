@@ -48,21 +48,15 @@ Content-length: xxx
  {
   "value": [
     {
-      "activeSettings": [
-        "activeSettings-value"
-      ],
       "assignedGroups": [
        "assignedGroups-value"
       ],
       "description": "description-value",
       "displayName": "displayName-value",
-      "draftSettings": [
-        "draftSettings-value"
-      ],
       "id": "id-value",
       "policyEnabled": "policyEnabled-value",
-      "previousSettings": [
-        "previousSettings-value"
+      "settings": [
+        "settings-value"
       ],
     }
   ]
