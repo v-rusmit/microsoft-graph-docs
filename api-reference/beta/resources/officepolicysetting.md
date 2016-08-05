@@ -10,7 +10,7 @@ Represents an Office policy setting.
 |category|String|The category of the setting. Read-only. Supports $filter.|
 |comments|String|User defined comments. Supports $filter.|
 |help|String|The help describes the details of the setting. Read-only. Supports $filter.|
-|displayName|String|The displayName of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
+|displayName|String|The displayName of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Read-only. Supports $filter and $orderby.|
 |options|[policyOption](policyoption.md) collection|The options that are available for the policy setting. Read-only. Not nullable. |
 |productName|String|The product name of the setting. Read-only. Supports $filter.|
 |settingState|String|The officepolicysetting state: Draft = 0, Active = 1, Previous = 2. Possible values are: `Draft`, `Active`, `Previous`.|
