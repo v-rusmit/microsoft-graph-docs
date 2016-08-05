@@ -10,7 +10,7 @@ Represents an Office policy setting.
 |category|String|The category of the setting. Supports $filter.|
 |comments|String|User defined comments. Supports $filter.|
 |help|String|The help describes the details of the setting. Supports $filter.|
-|name|String|The name of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
+|displayName|String|The displayName of the Office policy. This property is required when an Office policy is created and it cannot be cleared during updates. Supports $filter and $orderby.|
 |options|[policyOption](policyoption.md) collection|The options that are available for the policy setting. Read-only. Not nullable.            |
 |status|String|The officepolicysetting status: NotConfigured = 0, Enabled = 1, Disabled = 2. Possible values are: `NotConfigured`, `Enabled`, `Disabled`.|
 |supportedOn|String|The supported Operating Systems. Supports $filter.|
