@@ -11,8 +11,6 @@ Represents an Office policy.
 |[Delete officepolicy](../api/officepolicy_delete.md) | None |Delete officepolicy object. |
 |[List officepolicies](../api/officepolicy_list.md) |[officepolicy](officepolicy.md) collection| Get all the officepolicies in the organization.|
 |[Create officepolicy](../api/officepolicy_post_officepolicies.md) |[officepolicy](officepolicy.md)| Create a new officePolicy by posting to the officePolicies collection.|
-|[activateDraftSettings](../api/officepolicy_activatedraftsettings.md)|None|Activates the draft settings.|
-|[rollbackActiveSettings](../api/officepolicy_rollbackactivesettings.md)|None|Restores the previously active settings.|
 |[List officepolicy available products](api/officepolicy_list_availableproducts.md) |[officePolicyProduct](../resources/officepolicyproduct.md) collection| List the available officePolicy products.|
 |[List officePolicy available configuration settings](../api/officepolicy_list_configurationsettings.md) |[configurationsetting](configurationsetting.md) collection| List the available configurationsettings.|
 |[Get officepolicysetting](../api/officepolicysetting_get.md) | [officepolicysetting](officepolicysetting.md) |Read properties of an officePolicySetting object.|
