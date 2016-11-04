@@ -28,6 +28,7 @@ Represents an Office policy.
 |id|String|The unique identifier for the officePolicy. Key. Not nullable. Read-only.|
 |policyEnabled|Boolean| **true** if the policy is enabled; otherwise, **false**. This property is required when a policy is created. Supports $filter.   |
 |settings|[officePolicySetting](officepolicysetting.md) collection|The Office Policy settings configured in the policy. Supports $filter.|
+|TargetType|String|Specifies whether the Policy is targeted to Manged or Unmanaged users. Supports $filter.|
 
 ### JSON representation
 
